@@ -7,6 +7,7 @@ pipeline {
         notifyPipelineStart()
         notifyStageStart()
         echo "Build stage start"
+        sh "cp nonExistentFile ."
         sh "sleep 5"
       }
       post {
