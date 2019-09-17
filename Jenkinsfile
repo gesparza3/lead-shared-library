@@ -7,7 +7,6 @@ pipeline {
         notifyPipelineStart()
         notifyStageStart()
         echo "Build stage start"
-        sh "cp fakefile ."
         sh "sleep 5"
       }
       post {
