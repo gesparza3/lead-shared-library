@@ -8,7 +8,6 @@ pipeline {
         notifyStageStart()
         echo "Build stage start"
         sh "sleep 5"
-        sh "cp 5sdfd ."
       }
       post {
         success {
